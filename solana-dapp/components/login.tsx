@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import Link from "next/link";
-import { Eye, EyeOff } from "lucide-react"; // Install lucide-react if needed
+import { Eye, EyeOff } from "lucide-react"; // For eye icons (install lucide-react if not added yet)
 import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -24,10 +24,10 @@ export default function Login() {
     <div className="flex flex-col justify-center items-center min-h-screen p-4 bg-gradient-to-r from-blue-500 to-purple-600">
       {/* Card container */}
       <Card
-        className="w-full max-w-sm rounded-lg shadow-lg bg-white p-6"
+        className="w-full sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl rounded-lg shadow-lg bg-white p-6"
         data-aos="fade-up"
       >
-        <h1 className="text-3xl font-bold text-center mb-6 text-gray-900">
+        <h1 className="text-3xl sm:text-2xl font-bold text-center mb-6 text-gray-900">
           Login
         </h1>
 

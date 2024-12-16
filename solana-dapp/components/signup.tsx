@@ -24,7 +24,7 @@ export default function Signup() {
     <div className="flex flex-col justify-center items-center min-h-screen p-4 bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
       {/* Card container */}
       <Card
-        className="w-full max-w-sm rounded-lg shadow-xl bg-white p-6"
+        className="w-full max-w-md sm:max-w-sm rounded-lg shadow-xl bg-white p-6"
         data-aos="fade-up"
       >
         <h1 className="text-3xl font-bold text-center mb-6 text-gray-900">
