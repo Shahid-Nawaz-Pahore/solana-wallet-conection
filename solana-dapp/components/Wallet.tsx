@@ -29,7 +29,7 @@ const Wallet: FC = () => {
 
   return (
     <ConnectionProvider endpoint={endpoint}>
-      <WalletProvider wallets={wallets} autoConnect>
+      <WalletProvider wallets={wallets}>
         <WalletModalProvider>
           <div
             style={{ display: "flex", justifyContent: "center", gap: "10px" }}
