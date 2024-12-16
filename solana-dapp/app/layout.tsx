@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 import "@solana/wallet-adapter-react-ui/styles.css";
 export const metadata: Metadata = {
-  title: "Solana Gateway",
+  title: "Solana Payment Gateway",
 };
 
 export default function RootLayout({
