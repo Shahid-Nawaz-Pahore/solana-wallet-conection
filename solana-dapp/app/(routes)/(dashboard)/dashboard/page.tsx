@@ -1,6 +1,5 @@
 "use client";
 import BalanceDisplay from "@/components/BalanceDisplay";
-import SendSOLToRandomAddress from "@/components/SendSOLToRandomAddress";
 import Wallet from "@/components/Wallet";
 import React from "react";
 
