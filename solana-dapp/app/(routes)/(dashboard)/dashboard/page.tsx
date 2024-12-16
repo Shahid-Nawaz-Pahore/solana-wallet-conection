@@ -7,7 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Dashboard = () => {
-  const { connected, publicKey } = useWallet();
+  const { connected } = useWallet();
 
   // Initialize AOS for smooth animations
   useEffect(() => {
